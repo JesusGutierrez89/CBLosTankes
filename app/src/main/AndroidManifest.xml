@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CBLosTankes"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".ACTIVIDAD_JUGADOR.InfoJugadorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".IntermediaEquipoJugadores"
+            android:exported="false" />
+        <activity
+            android:name=".ACTIVIDAD_JUGADOR.JugadoresInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CLASES_UNION.IntermediaJugador"
+            android:exported="false"
+            android:theme="@style/Theme.CBLosTankes" />
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.cblostankes.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+        <activity android:name=".CLASES_UNION.IntermediaEquipos" />
+        <activity
+            android:name=".ACTIVIDAD_EQUIPO.InfoEquipo"
+            android:exported="false" />
+        <activity
+            android:name=".ACTIVIDAD_EQUIPO.Modalidad"
+            android:exported="false" />
+        <activity
+            android:name=".ACTIVIDAD_EQUIPO.Categorias"
+            android:exported="false" />
+        <activity
+            android:name=".ACTIVIDAD_EQUIPO.Equipos"
+            android:exported="false" />
+        <activity
+            android:name=".ACTIVIDAD_JUGADOR.RegistroActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MENU.Acerca_de"
+            android:exported="false" />
+    </application>
+
+</manifest>

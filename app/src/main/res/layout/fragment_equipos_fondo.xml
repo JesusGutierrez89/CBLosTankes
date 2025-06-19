@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- RecyclerView para mostrar los equipos -->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/infoEquipoRecicler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:padding="16dp"
+        android:scrollbars="vertical" />
+
+    <Button
+        android:id="@+id/botonFiltrarCategoria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/custom_orange"
+        android:text="@string/Categoriaboton"
+        android:textColor="#000000"
+        android:textSize="11sp" />
+
+    <Button
+        android:id="@+id/botonFiltrarmodalidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|end"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/custom_orange"
+        android:text="@string/Modalidadboton"
+        android:textColor="#000000"
+        android:textSize="11sp" />
+
+    <Button
+        android:id="@+id/botonMostrarTodo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/custom_orange"
+        android:onClick="cargarEquipos"
+        android:text="@string/MostrarTodo"
+        android:textColor="#000000"
+        android:textSize="11sp" />
+
+
+</FrameLayout>

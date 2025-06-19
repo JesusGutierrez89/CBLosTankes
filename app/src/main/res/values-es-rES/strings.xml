@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">CBLosTankes</string>
+    <string name="saludo">Hola</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="name">Nombre:</string>
+    <string name="year">Edad:</string>
+    <string name="exit">Salir</string>
+    <string name="idplayer">Jugador ID:</string>
+    <string name="nameRegister">Nombre:</string>
+    <string name="Apellido1">Apellido 1:</string>
+    <string name="Apellido2">Apellido 2:</string>
+    <string name="date">Fecha de nacimiento:</string>
+    <string name="Altura">Altura:</string>
+    <string name="Telefono">Teléfono:</string>
+    <string name="Email">Correo electrónico:</string>
+    <string name="Observaciones">Observaciones:</string>
+    <string name="RegistroJugador">Registro Jugador:</string>
+    <string name="botonInformacion">Información</string>
+    <string-array name="genero_array">
+        <item>Masculino</item>
+        <item>Femenino</item>
+        <item>Otro</item>
+    </string-array>
+    <string-array name="posicion_array">
+        <item>Base</item>
+        <item>Ala</item>
+        <item>AlaPivot</item>
+        <item>Alero</item>
+        <item>Pívot</item>
+    </string-array>
+    <string-array name="categorias">
+        <item></item>
+        <item>Escuela</item>
+        <item>Benjamín</item>
+        <item>Alevín</item>
+        <item>Infantil</item>
+        <item>Cadete</item>
+        <item>Junior</item>
+        <item>Senior</item>
+    </string-array>
+    <string-array name="modalidad">
+        <item></item>
+        <item>Femenino</item>
+        <item>Masculino</item>
+    </string-array>
+    <string name="filtrar">Filtrar:</string>
+    <string name="seleccionarModalidad">Seleccione modalidad</string>
+    <string name="seleccionarCategoria">Seleccione categoría</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Siguiente</string>
+    <string name="previous">Anterior</string>
+    <string name="IdTeam">Id Equipo</string>
+    <string name="Fechanac">Fecha de nacimiento</string>
+    <string name="Insert">Insertar</string>
+    <string name="InsertImage">Insertar Imagen</string>
+    <string name="UpdateDeletePlayer">Actualizar o Eliminar Jugador</string>
+    <string name="Update">ACTUALIZAR</string>
+    <string name="Delete">ELIMINAR</string>
+    <string name="IdPlayerDelete">Id Jugador a Eliminar</string>
+    <string name="Equipos">EQUIPOS</string>
+    <string name="EquipoId">Id Equipo</string>
+    <string name="EquipoName">Nombre del Equipo</string>
+    <string name="Patrocinador">Patrocinador</string>
+    <string name="Categoria">Categoría</string>
+    <string name="Modalidad">Modalidad</string>
+    <string name="Federado">Federado</string>
+    <string name="DiaPartido">Día del Partido</string>
+    <string name="HoraPartido">Hora del Partido</string>
+    <string name="Entrenamientos">Entrenamientos</string>
+    <string name="PersonaContacto">Persona de Contacto</string>
+    <string name="TelefonoContacto">Teléfono de Contacto</string>
+    <string name="InsertarEquipo">Insertar Equipo</string>
+    <string name="DeleteTeam">ELIMINAR EQUIPO</string>
+    <string name="UpdateTeam">ACTUALIZAR EQUIPO</string>
+    <string name="IdTeamDelete">Id Equipo a Eliminar</string>
+    <string name="Posicion">POSICIÓN</string>
+    <string name="Categoriaboton">CATEGORÍA</string>
+    <string name="Modalidadboton">MODALIDAD</string>
+    <string name="MostrarTodo">MOSTRAR TODO</string>
+    <string name="username">--Nombre de usuario</string>
+    <string name="password">--Contraseña</string>
+    <string name="login">INICIAR SESIÓN</string>
+    <string name="register">REGISTRARSE</string>
+    <string name="verJugadores">MOSTRAR JUGADORES</string>
+    <string name="Volver">VOLVER</string>
+    <string name="version">Versión 20.1</string>
+    <string name="LosTanques">LOS TANQUES</string>
+    <string name="Textolargo">Imparables en la cancha y en la pizzería.\nCombinamos fuerza bruta y caos.\nSi el aro sobrevive, fallamos.\nCorrer sin rumbo.\nCompartimos la pelota (a veces).\nSobrevivimos entrenamientos.\nGanamos un partido (y aún lo celebramos).\nPerder menos.\nConseguir patrocinio (ojalá de pizza).\n</string>
+</resources>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="viewModel"
+            type="com.example.cblostankes.SecondFragment" />
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".SecondFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/Equipos"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtEquipoId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/EquipoId" />
+
+            <EditText
+                android:id="@+id/edtEquipoNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/EquipoName" />
+
+            <EditText
+                android:id="@+id/edtPatrocinador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/Patrocinador" />
+
+            <EditText
+                android:id="@+id/edtCategoria"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/Categoria" />
+
+            <EditText
+                android:id="@+id/edtModalidad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/Modalidad" />
+
+            <EditText
+                android:id="@+id/edtFederado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/Federado" />
+
+            <EditText
+                android:id="@+id/edtDiaPartido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/DiaPartido" />
+
+            <EditText
+                android:id="@+id/edtHoraPartido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/HoraPartido" />
+
+            <EditText
+                android:id="@+id/edtEntrenamientos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/Entrenamientos" />
+
+            <EditText
+                android:id="@+id/edtPersonaContacto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/PersonaContacto" />
+
+            <EditText
+                android:id="@+id/edtTelefonoContacto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/TelefonoContacto" />
+
+            <Button
+                android:id="@+id/btinsertarImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/custom_orange"
+                android:text="@string/InsertImage"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/btCrearEquipo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/custom_orange"
+                android:text="@string/InsertarEquipo"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/edtEquipoId2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/IdTeamDelete" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/btDeleteEquipo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/custom_orange"
+                    android:text="@string/DeleteTeam"
+                    android:textColor="#000000" />
+
+                <Button
+                    android:id="@+id/btUpdateEquipo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/custom_orange"
+                    android:text="@string/UpdateTeam"
+                    android:textColor="#000000" />
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/infoEquipoRecicler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/buttonSecond"
+                android:layout_width="375dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#E53935"
+                android:textColor="#000000"
+                android:text="Ir a Primer Fragmento" />
+
+        </LinearLayout>
+    </ScrollView>
+</layout>

@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FRAGMENT_EQUIPO.Escudos">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/Equipo1"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/largo"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/equipo1" />
+
+        <ImageButton
+            android:id="@+id/Equipo2"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/largo"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/equipo2" />
+
+        <ImageButton
+            android:id="@+id/Equipo3"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/largo"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/equipo3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/Equipo4"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/largo"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/equipo4" />
+
+        <ImageButton
+            android:id="@+id/Equipo5"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/largo"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/equipo5" />
+
+        <ImageButton
+            android:id="@+id/Equipo6"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/largo"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/equipo6" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/Equipo7"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/largo"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/equipo7" />
+
+        <ImageButton
+            android:id="@+id/Equipo8"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/largo"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/equipo8" />
+
+        <ImageButton
+            android:id="@+id/Equipo9"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/largo"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/equipo9" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Equipo1Info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+
+
+        <TextView
+            android:id="@+id/Equipo1Texto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="
+        Equipo: Los Sayamans\n
+        Patrocinador: Frezer S.L\n
+        Categoria: Escuela\n
+        Modalidad: Masculino\n
+        Federado: SI\n
+        Dia partido: Sabado\n
+        Hora partido: 12:00\n
+        Entrenamientos: Lunes y Miercoles\n
+        Persona contacto: Vegeta\n
+        Telefono: 666666666\n"
+            android:layout_gravity="center"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/Equipo1imagen"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:src="@drawable/equipo1" />
+
+        <TextView
+            android:id="@+id/Equipo2Texto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="
+        Equipo: Los Aguiluchos\n
+        Patrocinador: Piensos Hacendado\n
+        Categoria: Cadete\n
+        Modalidad: Femenino\n
+        Federado: SI\n
+        Dia partido: Domingo\n
+        Hora partido: 13:00\n
+        Entrenamientos: Martes y Miercoles\n
+        Persona contacto: Hombre Pajaro\n
+        Telefono: 664566666\n"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            />
+
+        <ImageView
+            android:id="@+id/Equipo2imagen"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:src="@drawable/equipo2" />
+
+        <TextView
+            android:id="@+id/Equipo3Texto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="
+        Equipo: Los Lobos del Norte\n
+        Patrocinador: Deportes Martinez\n
+        Categoría: Junior\n
+        Modalidad: Masculino\n
+        Federado: NO\n
+        Día partido: Sábado\n
+        Hora partido: 16:00\n
+        Entrenamientos: Lunes y Jueves\n
+        Persona contacto: Juan Fernández\n
+        Teléfono: 612345678\n"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            />
+
+        <ImageView
+            android:id="@+id/Equipo3imagen"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:src="@drawable/equipo3" />
+
+        <TextView
+            android:id="@+id/Equipo4Texto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="
+        Equipo: Los Jockets\n
+        Patrocinador: Circo Ventura\n
+        Categoría: Infantil\n
+        Modalidad: Femenino\n
+        Federado: SI\n
+        Día partido: Domingo\n
+        Hora partido: 11:00\n
+        Entrenamientos: Miércoles y Viernes\n
+        Persona contacto: Enigma\n
+        Teléfono: 645678123\n"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            />
+
+        <ImageView
+            android:id="@+id/Equipo4imagen"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:src="@drawable/equipo4" />
+
+        <TextView
+            android:id="@+id/Equipo5Texto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="
+        Equipo: Espartanos Griegos\n
+        Patrocinador: Gim Sparta\n
+        Categoría: Senior\n
+        Modalidad: Femenino\n
+        Federado: NO\n
+        Día partido: Viernes\n
+        Hora partido: 19:30\n
+        Entrenamientos: Lunes y Miércoles\n
+        Persona contacto: Kratos\n
+        Teléfono: 698765432\n"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            />
+
+        <ImageView
+            android:id="@+id/Equipo5imagen"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:src="@drawable/equipo5" />
+
+        <TextView
+            android:id="@+id/Equipo6Texto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="
+        Equipo: La Mueteh\n
+        Patrocinador: Restaurante La Parrilla\n
+        Categoría: Alevín\n
+        Modalidad: Femenino\n
+        Federado: SI\n
+        Día partido: Sábado\n
+        Hora partido: 10:00\n
+        Entrenamientos: Martes y Jueves\n
+        Persona contacto: Pedro Sanchez\n
+        Teléfono: 678123456\n"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            />
+
+        <ImageView
+            android:id="@+id/Equipo6imagen"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:src="@drawable/equipo6" />
+
+        <TextView
+            android:id="@+id/Equipo7Texto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="
+        Equipo: Los Indefinidos Errantes\n
+        Patrocinador: Talleres Rodríguez\n
+        Categoría: Benjamín\n
+        Modalidad: Masculino\n
+        Federado: NO\n
+        Día partido: Domingo\n
+        Hora partido: 17:00\n
+        Entrenamientos: Lunes y Viernes\n
+        Persona contacto: Gru\n
+        Teléfono: 645987321\n"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            />
+
+        <ImageView
+            android:id="@+id/Equipo7imagen"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:src="@drawable/equipo7" />
+
+        <TextView
+            android:id="@+id/Equipo8Texto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="
+        Equipo: Los pescados Furiosos\n
+        Patrocinador: Pescaderia Sylvia\n
+        Categoría: Junior\n
+        Modalidad: Masculino\n
+        Federado: NO\n
+        Día partido: Domingo\n
+        Hora partido: 17:00\n
+        Entrenamientos: Lunes y Viernes\n
+        Persona contacto: Pedro Martínez\n
+        Teléfono: 645987321\n"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            />
+
+        <ImageView
+            android:id="@+id/Equipo8imagen"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:src="@drawable/equipo8" />
+
+        <TextView
+            android:id="@+id/Equipo9Texto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="
+        Equipo: Los arbustos Espinosos\n
+        Patrocinador: Floristeria Jaime\n
+        Categoría: Cadete\n
+        Modalidad: Femenino\n
+        Federado: NO\n
+        Día partido: Jueves\n
+        Hora partido: 19:00\n
+        Entrenamientos: Martes y Viernes\n
+        Persona contacto: Juan Abonos\n
+        Teléfono: 644569321\n"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            />
+
+        <ImageView
+            android:id="@+id/Equipo9imagen"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:src="@drawable/equipo9" />
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CATEGORÍAS:" />
+
+    <Spinner
+        android:id="@+id/spinnerCategoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/categorias"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MODALIDAD:" />
+
+    <Spinner
+        android:id="@+id/spinnerMadalidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/modalidad"
+        />
+
+
+</LinearLayout>

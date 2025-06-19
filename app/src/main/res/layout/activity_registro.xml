@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/custom_toast_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/RegistroJugador"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edtnombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nameRegister"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edtApellido1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Apellido1" />
+
+    <EditText
+        android:id="@+id/edtApellido2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Apellido2"
+        android:inputType="text" />
+
+    <Spinner
+        android:id="@+id/idSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/edFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/Fechanac"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/edAltura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/Altura"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/edTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/Telefono"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/edEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/edObservaciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/Observaciones"
+        android:inputType="text|textLongMessage" />
+
+    <EditText
+        android:id="@+id/edtEquipoId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/IdTeam"
+        android:inputType="number" />
+
+    <Spinner
+        android:id="@+id/idSpinnerPosicion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/custom_orange"
+        android:text="@string/botonInformacion"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btSeleccionarImagen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/custom_orange"
+        android:text="@string/InsertImage"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btInsertar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/custom_orange"
+        android:text="@string/Insert"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+
+</LinearLayout>
+
+
+

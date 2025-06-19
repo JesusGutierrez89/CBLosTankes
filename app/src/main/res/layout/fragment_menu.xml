@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MENU.Menu">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+
+        <ImageButton
+            android:id="@+id/MenuPelota"
+            android:layout_width="@dimen/largo"
+            android:layout_height="@dimen/largo"
+            android:scaleType="fitCenter"
+            android:src="@drawable/menupelota" />
+
+        <ImageButton
+            android:id="@+id/JugadorBasket"
+            android:layout_width="@dimen/largo"
+            android:layout_height="@dimen/largo"
+            android:scaleType="fitCenter"
+            android:src="@drawable/jugadorbasket" />
+
+        <ImageButton
+            android:id="@+id/DatosJugadores"
+            android:layout_width="@dimen/largo"
+            android:layout_height="@dimen/largo"
+            android:scaleType="fitCenter"
+            android:src="@drawable/datosjugadores" />
+        <ImageButton
+            android:id="@+id/escudoEquipos"
+            android:layout_width="@dimen/largo"
+            android:layout_height="@dimen/largo"
+            android:scaleType="fitCenter"
+            android:src="@drawable/equipos" />
+
+    </LinearLayout>
+
+
+</FrameLayout>

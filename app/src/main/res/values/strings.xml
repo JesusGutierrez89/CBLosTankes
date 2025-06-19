@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">CBLosTankes</string>
+    <string name="saludo">Hello</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="name">Name:</string>
+    <string name="year">Age:</string>
+    <string name="exit">Exit</string>
+    <string name="idplayer">Player ID:</string>
+    <string name="nameRegister">Name:</string>
+    <string name="Apellido1">Last Name 1:</string>
+    <string name="Apellido2">Last Name 2:</string>
+    <string name="date">Date of birth:</string>
+    <string name="Altura">Height:</string>
+    <string name="Telefono">Phone:</string>
+    <string name="Email">Email:</string>
+    <string name="Observaciones">Observations:</string>
+    <string name="RegistroJugador">Player Registration:</string>
+    <string name="botonInformacion">Information</string>
+    <string-array name="genero_array">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="posicion_array">
+        <item>Playmaker</item>
+        <item>Shooting Guard</item>
+        <item>Power Forward</item>
+        <item>Small Forward</item>
+        <item>Pivot</item>
+    </string-array>
+    <string-array name="categorias">
+        <item></item>
+        <item>School</item>
+        <item>Benjamin</item>
+        <item>Alevin</item>
+        <item>Infant</item>
+        <item>Cadet</item>
+        <item>Junior</item>
+        <item>Senior</item>
+    </string-array>
+    <string-array name="modalidad">
+        <item></item>
+        <item>Femenino</item>
+        <item>Masculino</item>
+    </string-array>
+    <string name="filtrar">Filtrar:</string>
+    <string name="seleccionarModalidad">"Seleccione modalidad"</string>
+    <string name="seleccionarCategoria">Seleccione categoría</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="IdTeam">IdTeam</string>
+    <string name="Fechanac">Date of birth</string>
+    <string name="Insert">Insert</string>
+    <string name="InsertImage">Insert Image</string>
+    <string name="UpdateDeletePlayer">Update or Delete Player</string>
+    <string name="Update">UPDATE</string>
+    <string name="Delete">DELETE</string>
+    <string name="IdPlayerDelete">IdPlayer to Delete</string>
+    <string name="Equipos">TEAMS</string>
+    <string name="EquipoId">Id Team</string>
+    <string name="EquipoName">Team Name</string>
+    <string name="Patrocinador">Sponsor</string>
+    <string name="Categoria">Category</string>
+    <string name="Modalidad">Modality</string>
+    <string name="Federado">Federated</string>
+    <string name="DiaPartido">Match Day</string>
+    <string name="HoraPartido">Match Time</string>
+    <string name="Entrenamientos">Training</string>
+    <string name="PersonaContacto">Contact Person</string>
+    <string name="TelefonoContacto">Contact Phone</string>
+    <string name="InsertarEquipo">Insert Team</string>
+    <string name="DeleteTeam">DELETE TEAM</string>
+    <string name="UpdateTeam">UPDATE TEAM</string>
+    <string name="IdTeamDelete">Id Team to Delete</string>
+    <string name="Posicion">POSITION</string>
+    <string name="Categoriaboton">CATEGORY</string>
+    <string name="Modalidadboton">MODALITY</string>
+    <string name="MostrarTodo">SHOW ALL</string>
+    <string name="username">--Username</string>
+    <string name="password">--Password</string>
+    <string name="login">LOGIN</string>
+    <string name="register">REGISTER</string>
+    <string name="verJugadores">SHOW PLAYERS</string>
+    <string name="Volver">RETURN</string>
+    <string name="version">Version 20.1</string>
+    <string name="LosTanques">THE TANKS</string>
+    <string name="Textolargo">Unstoppable on the court and in the pizzeria.\nWe combine brute force and chaos.\nIf the hoop survives, we failed.\nRunning aimlessly.\nWe share the ball (sometimes).\nWe survive training.\nWe won a game (and we still celebrate it).\nLose less.\nGet sponsorship (hopefully for pizza).\n</string>
+
+
+
+
+
+</resources>
